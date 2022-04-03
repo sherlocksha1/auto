@@ -44,10 +44,10 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('💰 𝗗𝗢𝗡𝗔𝗧𝗘 💰', callback_data='source')
             ],[
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+            InlineKeyboardButton('♻️ heop ♻️', callback_data='help'),
+            InlineKeyboardButton('♻️ abbb ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('💠 SΞARCH HΞRΞ 💠', switch_inline_query_current_chat='')
+            InlineKeyboardButton('💠 movies serach 💠', switch_inline_query_current_chat='')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
